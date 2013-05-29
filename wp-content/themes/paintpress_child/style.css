@@ -1,0 +1,18 @@
+/*
+
+Theme Name: Paintpress Child
+Description: JPD Designs Theme
+Author: Fourteen G Web Design Studio
+Version: 0.1
+Template: paintpress
+
+*/
+
+body {
+	color: green;
+	}
+	
+	
+#post-5 > h1 {
+    display: none;
+}

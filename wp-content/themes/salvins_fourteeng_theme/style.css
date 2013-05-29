@@ -1,0 +1,32 @@
+/*
+
+Theme Name: Salvins FourteenG Theme
+ThemeURI: http://Fourteeng.com
+Description: Custom Adapted Theme by FourteenG
+Author: Fourteen G Web Design Studio
+Author URI: http://
+Template: alterna
+Version: 0.1
+*/
+.container {
+    background-color: blue;
+}
+	
+	
+/*
+Home Page
+*/
+
+history .history-container {
+    margin-left: 18px;
+    margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+.body {
+	
+	background-color: blue;
+	}
+	.content-wrap {
+		background-image:url(images/diamondplate1.jpg);
+		}

@@ -1,0 +1,70 @@
+/*
+
+Theme Name: Blank Theme Child
+Description: JPD Designs Theme
+Author: Fourteen G Web Design Studio
+Version: 0.1
+Template: blank_theme
+
+*/
+
+/*--------------------------Page Set Up--------------------------------*/
+
+body {
+	color: black;
+	background-color: rgba(204,255,204,.4);
+
+}
+	
+#page-wrap {
+	width: 1050px;
+	margin: 0 auto;
+	text-align: center;
+	border:thin  dotted #000066;
+}
+
+/*-----------------------------Header---------------------------------*/
+
+#header {
+	/* [disabled]background-color: green; */
+	height: 200px;
+	border:thin  dotted #000066;
+}
+
+/*------------------------------Menu------------------------------------*/
+.menu {margin: 0;}
+.menu li {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0 30px;
+}
+.menu li a {text-decoration: none;}
+
+/*---------------------------------HomePage Content----------------------*/
+
+.new_releases {
+    background-color: blue;
+    float: left;
+    height: 500px;
+    width: 50%;
+}
+
+.home_recent_blog {
+    background-color: red;
+    float: right;
+    height: 500px;
+    width: 50%;
+	clear: right;
+}
+
+.recent_blogs {
+    list-style: none outside none;
+}
+
+.recent_blogs a {
+    text-decoration: none;
+}
+
+.brands {clear:both;}
+.slide {width: 100%;}
+.slider-controls {width:100%;}

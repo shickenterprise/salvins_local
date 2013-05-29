@@ -1,0 +1,57 @@
+.client-scroller-images-order li{
+	border:1px solid #ccc;
+	height:30px;
+	max-height:30px;
+	margin-bottom:12px;
+	position:relative;
+	/*overflow:hidden;*/
+	cursor:move;
+	cursor:ns-resize; /* show ns resize if its compatible with the browse */
+}
+
+.client-scroller-images-order li img{
+	min-height:30px;
+	max-height:30px;
+}
+
+.client-scroller-images-order li .client-scroller-images-delete-button{
+	display:none;
+	position: absolute;
+	top: 3px;
+	right: 20px;
+}
+
+.client-scroller-images-order li:hover .client-scroller-images-delete-button, .client-scroller-images-order li.client-scroller-images-will-be-deleted .client-scroller-images-delete-button,
+.client-scroller-images-order li:hover .client-scroller-images-details-button, .client-scroller-images-order li.client-scroller-images-will-be-deleted .client-scroller-images-details-button{
+	display:block;
+	z-index:100;
+}
+
+.client-scroller-images-details-table{
+	display:none;
+	position:absolute;
+	top:30px;
+	left:0;
+}
+
+.client-scroller-images-order li .client-scroller-images-details-button{
+	display:none;
+	position: absolute;
+	bottom:0px;
+	left:32px;
+}
+
+
+.client-scroller-images-order li.client-scroller-images-will-be-deleted{
+	opacity:0.5;
+}
+
+.client-scroller-images-order li.client-scroller-images-order-item-placeholder{
+	border:1px solid #e3e3e3;
+	background:#e8e8e8;
+	height:30px;
+}
+
+.client-tr-with-description + tr{ display:none; font-size:11px; text-align:justify; }
+
+.client-tr-with-description:hover + tr, .client-tr-with-description + tr:hover{ display:table-row; }

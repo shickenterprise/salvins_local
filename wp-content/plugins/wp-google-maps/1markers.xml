@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>2</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address> 1307 Main Street Hartford, CT 06103</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>41.772254</lat>
+    <lng>-72.67621609999998</lng>
+    <anim></anim>
+    <infoopen></infoopen>
+  </marker>
+</markers>

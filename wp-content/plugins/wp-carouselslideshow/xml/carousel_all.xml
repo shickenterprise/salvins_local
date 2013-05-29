@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+				<slideshow>
+					<settings>
+		<main_image width="400" height="300" />
+		<background>E0E0E0</background>
+		<autoslide on="true" time="10" />
+		<transition_speed>50</transition_speed>
+		<transition_type>easeOut</transition_type>
+
+		<description>
+			<show>true</show>
+			
+			<location >bottom</location>
+			<background>FF0000</background>
+			<alpha>90</alpha>
+			<text>FFFFFF</text>
+
+			<roundness>0</roundness>
+			
+		</description>
+		<border size="4" color="FFFFFF" />
+		<reflection>image</reflection>
+		<progress>
+			<show>true</show>
+			<location>top</location>
+
+			<color>A8A8A8</color>
+			<highlight>000000</highlight>
+			<alpha>100</alpha>
+		</progress>
+	</settings><snow_effect 	
+		type="1"
+		
+		minimumSize="0.7"
+		maximumSize="1.2"
+		
+		minimumSpeedY="2"
+		maximumSpeedY="4"
+		
+		minimumSpeedX="0"
+		maximumSpeedX="0"
+		
+		numOfParticles="125"
+		
+		minimumRotation="0"
+		maximumRotation="0"
+		
+		minimumAlpha="1"
+		maximumAlpha="1"
+		
+		minimumBlur="0"
+		maximumBlur="6"
+	/><!-- end settings -->
+					<pictures>
+					<picture src="http://localhost/salvins_local/wp-content/uploads/carousel/1_uploadfolder/big/0038s.jpg" scale="true"><link target="_self"></link><description></description></picture><picture src="http://localhost/salvins_local/wp-content/uploads/carousel/1_uploadfolder/big/0234s.jpg" scale="true"><link target="_self"></link><description>In Stores May 18th</description></picture><picture src="http://localhost/salvins_local/wp-content/uploads/carousel/1_uploadfolder/big/0309s.jpg" scale="true"><link target="_self"></link><description>In Stores Never!!</description></picture>					    
+					</pictures><!-- end images -->
+				</slideshow>

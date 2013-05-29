@@ -1,0 +1,10 @@
+.history .history-container {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#alterna-header .logo, #alterna-header .logo a {
+    float: none;
+}
+
+.history {margin-left:100px;}

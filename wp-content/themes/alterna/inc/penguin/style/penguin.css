@@ -1,0 +1,587 @@
+/**
+	Penguin Framework
+
+	Copyright (c) 2012 Activetofocus
+
+	@url http://penguin.activetofocus.com
+	@package Penguin
+	@version 1.0
+**/
+
+@font-face {
+  font-family: 'Ropa Sans';
+  font-weight: normal;
+  font-weight: 400;
+  src: local('Ropa Sans'), local('RopaSans-Regular'), url(../font/RopaSans.woff) format('woff');
+}
+
+a {text-decoration:none;}
+
+#penguin-container {
+	margin:15px 10px;
+	width:840px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#penguin-header {
+	float:left;
+	width:100%;
+	height: 62px;
+	border-bottom: 8px #00B7CF solid;
+	border-radius: 6px 6px 0px 0px;
+	background:#3f3f3f;
+}
+
+#penguin-custom-logo {
+	float:left;
+	margin:7px 5px 0px 10px;
+	height:50px;
+}
+
+#penguin-custom-logo a{
+	float:left;
+}
+
+#penguin-custom-logo h3,#penguin-custom-logo span,#penguin-logo h3,
+#penguin-logo span,.penguin-page-title,.penguin-page-content-title,
+.penguin-tabs .penguin-tabs-nav li a,.toggle .toggle-title h6 {
+	font-family:"Ropa Sans","Times New Roman","Bitstream Charter",Times,serif;
+}
+
+#penguin-custom-logo h3 {
+	color: white;
+	font-size: 25px;
+	line-height: 25px;
+	margin: 7px 0px 1px 0px;
+	font-weight:normal;
+}
+
+#penguin-custom-logo span {
+	color: white;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+#penguin-logo {
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	height: 40px;
+}
+
+#penguin-logo a{
+	display: block;
+	float: left;
+	font-size:30px;
+	color:#fff;
+}
+
+#penguin-logo div{
+	margin-left:40px;
+}
+
+#penguin-logo h3{
+	margin: 2px 0px 3px 0px;
+	font-size: 14px;
+	line-height: 14px;
+	color:#ffffff;
+}
+
+#penguin-logo span{
+	font-size: 10px;
+	line-height: 10px;
+	color: white;
+	text-align: right;
+	display: block;
+}
+
+#penguin-content {
+	width:838px;
+	float:left;
+	border-left:1px #d7d7d7 solid;
+	border-right:1px #d7d7d7 solid;
+	border-bottom:1px #d7d7d7 solid;
+	min-height:500px;
+	background: url("../images/tabs-bg.png") repeat-y -2px;
+}
+
+.penguin-page-title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #222222;
+	border-bottom: 1px #00A7BD dotted;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.penguin-page-container {
+	margin-bottom:15px;
+	float: left;
+	width:100%;
+}
+
+.penguin-page-content-title {
+	font-size: 14px;
+	font-weight: bold;
+	color: #555555;
+	border-bottom: 1px #F2F2F2 solid;
+	padding-bottom: 5px;
+	margin-bottom:10px;
+}
+
+.penguin-page-content-elements {
+	float: left;
+	width:350px;
+}
+
+.penguin-page-content-desc {
+	font-size:10px;
+	color:#999999;
+	line-height:12px;
+	margin:0px 2px;
+	padding-top:0px;
+}
+
+.penguin-page-content-desc h6{
+	font-size: 10px;
+	color: #444;
+	margin: 6px 0px;
+}
+
+.penguin-label ,
+.penguin-label-radio ,
+.penguin-label-checkbox {
+	display: block;
+	float: left;
+}
+
+.penguin-input-text {
+	height: 24px;
+	float: left;
+	min-width:300px;
+}
+
+.penguin-input-text-number {
+	min-width:120px;
+}
+
+
+.penguin-input-color {
+	margin-top: 5px;
+	height: 24px;
+	width: 100px;
+	float: left;
+}
+
+.penguin-input-text,
+.penguin-textarea,
+.penguin-input-color {
+	border: 1px #DFDFDF solid;
+	border-radius: 5px;
+}
+
+.penguin-textarea {
+	width:300px;
+	height:120px;
+}
+
+.penguin-input-text:focus,
+.penguin-textarea:focus {
+	border: 1px #BBB solid;
+	border-radius: 5px;
+}
+
+.penguin-input-button {
+	color:#464646;
+	border: 1px #BBB solid;
+	border-radius: 11px;
+	font-size: 12px;
+	padding: 4px 12px;
+	float: left;
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.penguin-input-button:hover {
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+	background: #EBEBEB -webkit-linear-gradient(#FEFEFE, #F8F8F8 40%, #E9E9E9);
+	border-color: #999;
+	color: #222;
+}
+
+
+.penguin-input-text ,
+.penguin-input-button ,
+.penguin-label,
+.penguin-input-radio,
+.penguin-label-radio,
+.penguin-input-color,
+.penguin-colorpicker  {
+	margin-left:0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.penguin-radio {
+	float:left;
+	margin-right:30px;
+}
+
+.penguin-radio,
+.penguin-checkbox-container {
+	line-height:14px;
+	display:block;
+	font-size: 12px;
+}
+.penguin-input-radio,
+.penguin-input-checkbox {
+	float: left;
+	margin-right: 3px !important;
+}
+
+
+.penguin-page-end {
+	margin:15px 0px;
+	float: left;
+	width: 610px;
+	height:70px;
+}
+
+.penguin-setting-back {
+	display: block;
+	float: left;
+	margin-left: 350px;
+}
+
+.penguin-page-end input[type=submit]{
+	float: right;
+}
+
+.penguin-select {
+	border: 1px #DFDFDF solid;
+	border-radius: 5px;
+	height: 24px;
+	float: left;
+	min-width:120px;
+}
+
+.penguin-colorpicker {
+	float:left;
+	display:block;
+	width: 36px;
+	height: 36px;
+	background: url(../images/select2.png);
+}
+
+.penguin-colorpicker div {
+	margin:4px;
+	width:28px;
+	height:28px;
+	display:block;
+	background: url(../images/select2.png) center;
+}
+
+.penguin-preview-imag {
+	float:left;
+}
+
+.upload-image-input {
+	width:300px;
+}
+
+.penguin-preview-image img {
+	border:1px #CCC dotted;
+	max-width:300px;
+}
+
+.penguin-update-tip {
+	width:610px;
+	height:40px;
+	padding: 15px 0px 5px 0px;
+}
+
+.penguin-setting-tip {
+	display:none;
+	width: 255px;
+	height: 20px;
+	margin-left: 350px;
+}
+
+/* ------- 2. Tabs  ------- */
+
+.penguin-tabs {
+	display:block;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.penguin-tabs .penguin-tabs-nav {
+	display:block;
+	width:180px;
+	float:left;
+	list-style: none outside none;
+	margin:0px;
+	padding:0px;
+	height: 100%;
+	background: #F1F1F1;
+	border-right: 1px #D7D7D7 solid;
+}
+
+.penguin-tabs .penguin-tabs-nav li{
+	background:#f1f1f1;
+	margin-left:0px;
+	border-bottom:1px #d3d3d3 solid;
+	padding:8px 5px;
+	cursor:pointer;
+	margin-bottom: 0px;
+}
+
+.penguin-tabs .penguin-tabs-nav li a {
+	margin-left:5px;
+	line-height: 23px;
+	height: 22px;
+	display: block;
+	padding:0 10px;
+	color:#767676;
+	font-size: 16px;
+}
+
+.penguin-tabs .penguin-tabs-nav li a i {
+	margin-right:5px;
+}
+
+.penguin-tabs .penguin-tabs-nav li.light {
+	background:#ffcfc8 !important;
+}
+
+
+.penguin-tabs .penguin-tabs-nav li:hover a {
+	color:#e27f2e;
+}
+
+
+.penguin-tabs .penguin-tabs-nav li:hover{
+	background-color:#e8e8e8;
+}
+
+.penguin-tabs .penguin-tabs-nav li.current {
+	background:#dadada;
+	cursor:auto;
+}
+
+.penguin-tabs .penguin-tabs-nav li.current a {
+	color:#0d6e9b;
+	font-weight:bold;
+}
+
+.penguin-tabs .penguin-tabs-container {
+	margin-left:210px;
+}
+
+.penguin-tabs .penguin-arrow-icon {
+	background: url("../images/arrow.png") no-repeat 0px -1px;
+	display: block;
+	height: 40px;
+	width: 30px;
+	position: absolute;
+	left: 180px;
+}
+
+.penguin-tabs .penguin-tabs-container .penguin-tabs-content{
+	padding: 10px 20px 10px 0px;
+}
+
+
+/* ------- 3. Tables  ------- */
+
+.penguin-table tr {
+	vertical-align:top;
+}
+
+.penguin-table td {
+	/*line-height:25px;*/
+	padding-top:5px;
+	font-size:12px;
+}
+
+.penguin-table th {
+	width: 140px;
+	text-align: left;
+	float: left;
+	font-size:12px;
+	/*line-height: 25px;*/
+	font-weight:normal;
+	padding-top:5px;
+}
+
+.penguin-table td.penguin-default {
+	min-width: 310px;
+}
+
+/* ------- 4. Message  ------- */
+
+.message {
+	position:relative;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.message .green-success-message,
+.message .orange-caution-message
+{
+	width:100%;
+	float:left;
+}
+
+.message .orange-caution-message {
+	border:1px #f85b2e solid;
+	background:#fff1ec;
+	color:#f85b2e;
+}
+
+.message .green-success-message {
+	border:1px #6aa100 solid;
+	background:#e6ffd3;
+	color:#6aa100;
+}
+
+.message .message-close-button {
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:12px;
+	height:12px;
+	display: block;
+	float: right;
+	margin-top: 4px;
+	margin-right: 6px;
+	cursor:pointer;
+}
+
+.message .green-close {
+	background:url("../images/close_green.png") no-repeat;
+}
+
+
+.message .green-success-icon {
+	float: left;
+	display: block;
+	padding: 5px 30px;
+	margin: 5px 10px;
+}
+
+.message .orange-caution-icon {
+	float: left;
+	display: block;
+	padding: 5px 20px 5px 50px;
+	margin: 5px 10px;
+}
+
+.message .orange-caution-icon {
+	background:url("../images/caution_Orage.png") no-repeat scroll left center;
+}
+
+.message .green-success-icon {
+	background:url("../images/success_green.png") no-repeat scroll left center;
+}
+
+/* ------- 5.Toggle  ------- */
+
+.toggle {
+	display:block;
+	margin-bottom:10px;
+	float: left;
+	width: 100%;
+}
+
+.toggle .toggle-title {
+	width:100%;
+	position:relative;
+}
+
+.toggle .toggle-title {
+	cursor:pointer;
+}
+
+.toggle .item-show {
+	background-color:#00b7cf;
+	border:1px #009eb3 solid;
+	
+}
+
+.toggle .item-show h6{
+	color:#ffffff;
+}
+
+.toggle .item-hide {
+	background-color:#e8e8e8;
+	border:1px #c0c0c0 solid;
+	color:#000000;
+}
+
+.toggle .item-hide:hover {
+	background-color:#f3f3f3;
+}
+
+.toggle .item-hide:active {
+	color:#3d3d3d;
+}
+
+.toggle .toggle-title h6 {
+	font-size:16px;
+	text-align:left;
+	margin: 0px;
+	padding:5px 10px;
+	line-height:20px;
+	font-weight:normal;
+}
+
+.toggle .toggle-title span {
+	top:0px;
+	right:20px;
+	display:block;
+	position:absolute;
+	width:10px;
+	height:100%;
+}
+
+.toggle .item-hide span {
+	background:url("../images/accordion-plus.png") no-repeat 0px 50%;
+}
+
+.accordion .item-show span,
+.toggle .item-show span {
+	background:url("../images/arrordion-minus.png") no-repeat 0px 50%;
+}
+
+.toggle .toggle-container {
+	width:100%;
+	background-color:#ffffff;
+	border-left:1px #cbcbcb solid;
+	border-right:1px #cbcbcb solid;
+	border-bottom:1px #cbcbcb solid;
+}
+
+.toggle .toggle-content {
+	padding:10px 10px;;
+	margin-bottom:0px;
+}
+
+.penguin-dropcap {
+	float: left;
+	margin-right: 3px;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	display: block;
+	line-height: 20px;
+	text-transform:uppercase;
+}
+
+.penguin-import-options textarea {width:100%;}
+.penguin-import-options hr {
+	margin: 20px 0px;
+	border: #E8E8E8 1px solid;
+}

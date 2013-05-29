@@ -1,0 +1,26 @@
+.history .history-container {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.span6 {text-align: left;}
+.span6 h1 {
+    margin-bottom: 30px;
+}
+
+
+#alterna-header .logo, #alterna-header .logo a {
+    float: none;
+}
+
+.history {margin-left:100px;}
+
+.product_list_widget {
+    width: 243px;
+}
+.content-wrap {
+    background-image: url("../salvins_fourteeng_theme/images/diamondplate1.jpg");
+}
+.home_blog {
+    border-right: thin solid;
+    overflow: auto;
+}
