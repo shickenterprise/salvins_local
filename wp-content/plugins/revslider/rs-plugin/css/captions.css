@@ -1,7 +1,9 @@
 .tp-caption.salvins_text{
-			background-color: rgba(215, 219, 255, 0.5);
-  			color: black;
+  			color: red;
   			font-size: 40px;
+  			font-family: comic sans;
+  			text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+  			line-height: 1em;
 }
 .tp-caption.big_white{
 			position: absolute; 

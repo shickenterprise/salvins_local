@@ -1,26 +1,127 @@
+			/* --===Change Background To Black===-- */
+
+.header-wrap.container {
+	background-color: rgba(20, 20, 20,.8);
+}
+.content-wrap {
+	background-color: rgba(20, 20, 20,.8);
+}
+
+/*---======---*/
+
+				/*---=== Header ===---*/
+				
+#alterna-header .logo, #alterna-header .logo a {
+	margin: 0 auto;
+   	float: none;
+}
+
+/*Login and Shopping Cart Buttons*/
+.wc-header {
+display: none;
+}
+
+			/*---===Header Menu Center===---*/
+
+.alterna-nav-menu li a {
+line-height: 48px;
+padding: 0px 73px;
+margin: 0 auto;
+padding: 0 33%;	
+text-shadow: 3px 2px 5px rgba(0,0,0,1);
+}
+
+#menu-item-262 {
+width: 198px;
+}
+
+.alterna-nav-menu > li {
+width: 13%;
+}
+
+#menu-item-262 a {
+width: 118px;
+padding: 0 21%;
+}
+
+.alterna-nav-menu {
+width: 100%;
+}
+
+.alterna-nav-menu-container {
+width: 85%;
+}
+
+
+			/*---===Home Blog and Timeline Headers===---*/
+
+.home_content {
+	margin-top: 51px;
+}
+/*Headings*/
+.span6 {text-align: left;}
+.span6 h1 {
+	text-align: center;
+	background: #f50505;
+	/*background: rgba(245, 0, 0, .8);*/
+	text-shadow: 3px 2px 5px rgba(0,0,0,1);
+	margin-bottom: 30px;
+}
+		/*Timeline*/
+
+.home_timeline {
+	border-right: none;
+	overflow: auto;
+}
+.history {
+	margin-left:100px;
+}
+
 .history .history-container {
     margin-left: 20px;
     margin-top: 0px;
+	border: none;
 }
-.span6 {text-align: left;}
-.span6 h1 {
-    margin-bottom: 30px;
-}
-
-
-#alterna-header .logo, #alterna-header .logo a {
-    float: none;
-}
-
-.history {margin-left:100px;}
 
 .product_list_widget {
     width: 243px;
 }
-.content-wrap {
-    background-image: url("../salvins_fourteeng_theme/images/diamondplate1.jpg");
+
+				/*---=== Salvin Releases Page ===---*/
+.post-tip-info p {
+font-size: 12px;
 }
-.home_blog {
-    border-right: thin solid;
-    overflow: auto;
+
+
+				/*---=== Shop Page ===---*/
+
+.woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button {
+font-size: 100%;
+margin: 0;
+line-height: .3;
+cursor: pointer;
+position: relative;
+font-family: inherit;
+overflow: visible;
+padding: 6px 10px;
+text-decoration: none;
+font-weight: bold;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 19px;
+left: auto;
+text-shadow: 0 1px 0 rgb(255, 255, 255);
+color: rgb(94, 94, 94);
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+border: 1px solid rgb(200, 191, 198);
+background: rgb(247, 246, 247);
+background: -webkit-gradient(linear,left top,left bottom,from(rgb(247, 246, 247)),to(rgb(224, 218, 223)));
+background: -webkit-linear-gradient(rgb(95, 95, 95),rgb(224, 218, 223));
+background: -moz-linear-gradient(center top,rgb(247, 246, 247) 0,rgb(224, 218, 223) 100%);
+background: -moz-gradient(center top,rgb(247, 246, 247) 0,rgb(224, 218, 223) 100%);
+white-space: nowrap;
+display: inline-block;
+-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.075),inset 0 1px 0 rgba(255, 255, 255, 0.3),0 1px 2px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.075),inset 0 1px 0 rgba(255,255,255,0.3),0 1px 2px rgba(0,0,0,0.1);
+box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.075),inset 0 1px 0 rgba(255, 255, 255, 0.3),0 1px 2px rgba(0, 0, 0, 0.1);
 }

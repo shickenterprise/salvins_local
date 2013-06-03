@@ -186,7 +186,14 @@ text-align:left;}
 .alterna-nav-menu span.sub {float: right;margin-left: 10px;font-size: 18px;line-height: 24px;}
 
 
-.alterna-nav-menu > li {list-style: none outside none;float:left;color:#ffffff;line-height: 20px;position:relative;background:url('img/menu_line.png') no-repeat right center;}
+.alterna-nav-menu > li {
+	list-style: none outside none;
+	float: left;
+	color: #ffffff;
+	line-height: 20px;
+	position: relative;
+	background: url('img/menu_line.png') no-repeat right center;
+}
 
 .alterna-nav-menu li li {
 	-webkit-transition: 500ms;
@@ -1749,10 +1756,4 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	#back-top {background-image:url("img/custom/icon_chevron_top@2x.png");}
 
 }
-.content-wrap {
-    background-image: url("../salvins_fourteeng_theme/images/diamondplate1.jpg");
-}
-.span4 {
-    border-right: thin solid;
-    padding-right: 40px;
-}
+
